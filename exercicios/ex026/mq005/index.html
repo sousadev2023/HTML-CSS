@@ -11,9 +11,9 @@
 <body>
     <header>
         <h1>Meu site</h1>
-        <span id="burguer" class="material-symbols-rounded" onclick="clickMenu()">
+        <i id="burguer" class="material-symbols-rounded" onclick="clickMenu()">
             menu
-        </span>
+        </i>
         <menu id="itens">
             <ul>
                 <li><a href="#">pagina1</a></li>
@@ -36,10 +36,11 @@
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
-            } else {
+            } 
+            else {
                 itens.style.display = 'block'
             }
-}
+        }
     </script>
 </body>
 </html>
